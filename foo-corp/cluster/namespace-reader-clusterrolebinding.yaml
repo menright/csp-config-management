@@ -2,6 +2,8 @@ kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: namespace-readers
+  annotations:
+    configmanagement.gke.io/managed: enabled
 subjects:
 - kind: User
   name: cheryl@foo-corp.com
