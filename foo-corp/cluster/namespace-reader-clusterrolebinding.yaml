@@ -6,7 +6,7 @@ metadata:
     configmanagement.gke.io/managed: enabled
 subjects:
 - kind: User
-  name: cheryl@foo-corp.com
+  name: cheryl2@foo-corp.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
